@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--craeted by Lorraine-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--this is the layout for our drawer. It holds all the menu items, including the icon for each. -->
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/showall"
+            android:title="Show All Recycling Facilities"
+            android:icon="@drawable/ic_showall"
+             />
+        <item
+            android:id="@+id/bin_comapanies"
+            android:icon="@drawable/ic_bin_lorry"
+            android:title="@string/bin_companies" />
+        <item
+            android:id="@+id/useful_links"
+            android:icon="@drawable/ic_info"
+            android:title="@string/useful_links" />
+        <item
+            android:id="@+id/benefits"
+            android:icon="@drawable/ic_benefits"
+            android:title="@string/benefits" />
+        <item
+            android:id="@+id/not_recycle"
+            android:icon="@drawable/ic_not_recycle"
+            android:title="@string/not_recycle"/>
+        <item
+            android:id="@+id/symbols"
+            android:icon="@drawable/ic_symbols"
+            android:title="@string/symbols"/>
+        <item
+            android:id="@+id/addRecycler"
+            android:title="Add Recycling Centre"
+            android:icon="@drawable/ic_add"/>
+        <item
+            android:id="@+id/selectBinDay"
+            android:title="Set Bin Day Reminder"
+            android:icon="@drawable/ic_calendar"/>
+        <item
+            android:id="@+id/bottle_banks"
+            android:icon="@drawable/ic_lists"
+            android:title="@string/show_all"
+            />
+
+    </group>
+    <!--creates a second menu for settings and about options-->
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_about"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+</menu>
